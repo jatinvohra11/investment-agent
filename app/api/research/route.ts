@@ -31,8 +31,8 @@ COMPANY OVERVIEW: {overviewData}
 Respond with ONLY valid JSON:
 {{
   "company": "{company}",
-  "verdict": "INVEST",
-  "confidence": 75,
+  "verdict": "INVEST or PASS based on analysis",
+  "confidence": <0-100, be specific: strong companies 80-90, weak 30-50, medium 55-75>,
   "summary": "2-3 sentence summary",
   "financials": {{
     "revenue": "data or N/A",
